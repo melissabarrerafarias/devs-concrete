@@ -6,7 +6,6 @@ import locations from '../assets/images/locations.png';
 function Homepage() {
     return (
         <main>
-
             <div class="hero">
                 <div className="hero-logo">
                     <img src={heroLogo} />
@@ -27,16 +26,29 @@ function Homepage() {
             </div>
 
             <div id="why-choose-us" className="text-center">
-                <h1>WHY CHOOSE US</h1>
+                
+                    <h1>WHY CHOOSE US</h1>
                 <div class="row">
                     <div class="col-md-4">
-                        We're Awesome
+                        <i class="fa-solid fa-user-group"></i>
+                        <h2>We're Experienced</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat</p>
                     </div>
                     <div class="col-md-4">
-                        We're Reliable
+                        <i class="fa-regular fa-handshake"></i>
+                        <h2>We're Reliable</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat</p>
                     </div>
                     <div class="col-md-4">
-                        We're Skilled
+                        <i class="fa-solid fa-hammer"></i>
+                        <h2>We're Skilled</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat</p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #455150;
+}
+
+.navbar-brand {
+    font-family: 'Rajdhani', sans-serif;
+    color: #EFF5F5; 
+}
+
+.nav-link {
+    color: white; 
+    margin-right: 30px; 
+    margin-left: 30px; 
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+#navbar-brand-right {
+    visibility: hidden;
+}
+
+@media (min-width: 992px) {
+    #navbarNavAltMarkup {
+        display: flex;
+        justify-content: center;
+    }
+}

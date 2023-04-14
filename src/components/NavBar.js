@@ -1,36 +1,25 @@
 import '../navbar.css';
-
+// import heroLogo from '../assets/images/logo-homepage.PNG';
 function NavBar() {
     return (
-        <div>
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse text-align-center" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Our Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link">Contact</a>
-                            </li>
-                        </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Dev's Concrete</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-circle-chevron-down"></i></span> {/*CHANGE ICON LATER*/}
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="/">Home</a>
+                        <a class="nav-link" href="/services">Services</a>
+                        <a class="nav-link" href="/services">Our Work</a>
+                        <a class="nav-link" href="/about">About</a>
+                        <a class="nav-link" href="/#contact-me">Contact</a>
                     </div>
                 </div>
-            </nav>
-        </div>
+                <a class="navbar-brand" id="navbar-brand-right" href="/">Dev's Conrete</a>
+            </div>
+        </nav>
     )
 };
 
