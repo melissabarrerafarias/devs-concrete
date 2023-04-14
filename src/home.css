@@ -1,7 +1,8 @@
 .hero {
     /* The image used */
-    background-image: url("../src/assets/images/homepage-img.jpg");
-    height: 700px;
+    /* background-image: url("../src/assets/images/homepage-img.jpg"); */
+    background: linear-gradient(transparent, 75%, white ), url("../src/assets/images/homepage-img.jpg");
+    height: 1000px;
     min-width: 100%;
     /* Center and scale the image nicely */
     background-position: center;
@@ -15,4 +16,42 @@
     position: absolute;
     min-width: 100%;
     text-align: center;
+}
+
+#what-we-do {
+    margin-top: 20%
+}
+
+#what-we-do img {
+    max-width: 70%;
+}
+
+#why-choose-us {
+    margin-top: 10%; 
+    height: 400px; 
+    background-color: rgb(229, 229, 229);
+}
+
+#where-we-serve {
+    margin-top: 10%
+}
+
+#where-we-serve img {
+    max-width: 50%;
+}
+
+.location-pins {
+    height: 200px;
+    background-color: rgb(229, 229, 229);
+    margin-top: 10%
+}
+
+#where-we-serve i {
+    font-size: 40px;
+    margin-top: 70px
+}
+
+#where-we-serve .col-md-1 {
+    margin-left: 50px; 
+    margin-right: 50px
 }
