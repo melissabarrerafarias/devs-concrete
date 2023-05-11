@@ -1,0 +1,32 @@
+#footer {
+    background-color: #455150;
+}
+
+#footer h1, #footer p, #footer a, #footer li {
+    color: white; 
+}
+
+#footer h1 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#footer-left {
+    margin-top: 20px;
+    padding-left: 20px;  
+}
+
+#footer-right {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px; 
+    margin-top: auto;
+    font-size: 20px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#footer ul {
+    list-style: none;
+}
+
