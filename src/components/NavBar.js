@@ -12,7 +12,6 @@ function NavBar() {
                     <div class="navbar-nav">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                         <a class="nav-link" href="/services">Services</a>
-                        <a class="nav-link" href="/services">Our Work</a>
                         <a class="nav-link" href="/about">About</a>
                         <a class="nav-link" href="/#contact-me">Contact</a>
                     </div>

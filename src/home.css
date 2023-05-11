@@ -27,7 +27,7 @@ font-family: 'Orbitron', sans-serif;*/
 }
 
 .hero button {
-    background-color: #FFEE99;
+    background-color: #FCDE92;
     font-family: 'Rajdhani', sans-serif;
     font-size: 16px;
     letter-spacing: 2px;
@@ -110,7 +110,7 @@ h1 {
 .location-pins {
     height: 200px;
     background-color: rgb(229, 229, 229);
-    margin-top: 10%
+    margin-top: 5%
 }
 
 #where-we-serve i {
@@ -126,3 +126,86 @@ h1 {
     margin-left: 50px;
     margin-right: 50px
 }
+
+#contact {
+    margin-top: 10%;
+    margin-bottom: 10%
+}
+
+.contact-info {
+    background-color: rgb(229, 229, 229);
+    max-width: 70%;
+    margin: auto; 
+    margin-top: 10%; 
+    height: 80%; 
+    border-radius: 1000px;
+}
+
+#contact form {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 10%
+}
+
+input:focus, textarea:focus {
+    outline: none; 
+    outline-width: 0;
+}
+
+#contact form label {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+#contact form input,
+#contact form textarea {
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#contact form textarea {
+    height: 150px
+}
+
+#contact form button {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-color: black
+}
+
+#contact form button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+#contact form button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px; 
+}
+
+
