@@ -81,13 +81,12 @@ function Homepage() {
 
                     <div className="col-md-6">
                         <div className="contact-info">
-                            <row>
-                                <div>Text - Call - Email</div>
+                            <row className="contact-details">
+                                <h3>Text, Call, or Email</h3>
                                 <div> 
-                                <i class="fa-solid fa-comment-sms"></i>
-                                <i class="fa-solid fa-mobile-screen-button"></i>
-                                <i class="fa-solid fa-at"></i>
-
+                                <i class="fa-solid fa-comment-sms glow"></i>
+                                <i class="fa-solid fa-mobile-screen-button glow"></i>
+                                <i class="fa-solid fa-at glow"></i>
                                 </div>
                             </row>
 
