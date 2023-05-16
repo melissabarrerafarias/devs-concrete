@@ -12,8 +12,8 @@ function NavBar() {
                     <div class="navbar-nav">
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                         <a class="nav-link" href="/services">Services</a>
-                        <a class="nav-link" href="/about">About</a>
-                        <a class="nav-link" href="/#contact-me">Contact</a>
+                        <a class="nav-link" href="/#what-we-do">About</a>
+                        <a class="nav-link" href="/#contact">Contact</a>
                     </div>
                 </div>
                 <a class="navbar-brand" id="navbar-brand-right" href="/">Dev's Conrete</a>

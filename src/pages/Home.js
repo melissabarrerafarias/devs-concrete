@@ -3,21 +3,30 @@ import heroLogo from "../assets/images/logo-homepage.PNG";
 import homepageImg2 from '../assets/images/homepage-img2.jpg';
 import locations from '../assets/images/locations.png';
 
+import Pulse from 'react-reveal/Pulse';
+import Fade from 'react-reveal/Fade';
+
 function Homepage() {
     return (
         <main>
             <div class="hero">
-                <div className="hero-logo">
-                    <img src={heroLogo} />
-                    <h1>Dev's Concrete</h1>
-                    <button>Request a Free Estimate</button>
-                </div>
+                <Fade top>
+                    <div className="hero-logo">
+                        <img src={heroLogo} />
+                        <h1>Dev's Concrete</h1>
+                        <Pulse>
+                            <button>Request a Free Estimate</button>
+                        </Pulse>
+                    </div>
+                </Fade>
             </div>
 
             <div id="what-we-do" className="text-center">
                 <div class="row">
                     <div class="col-md-6">
-                        <img src={homepageImg2} />
+                        <Fade left>
+                            <img src={homepageImg2} />
+                        </Fade>
                     </div>
                     <div class="col-md-6">
                         <h1>WHAT WE DO</h1>
@@ -82,11 +91,14 @@ function Homepage() {
                     <div className="col-md-6">
                         <div className="contact-info">
                             <row className="contact-details">
-                                <h3>Text, Call, or Email</h3>
-                                <div> 
-                                <i class="fa-solid fa-comment-sms glow"></i>
-                                <i class="fa-solid fa-mobile-screen-button glow"></i>
-                                <i class="fa-solid fa-at glow"></i>
+                                <h2>Text, Call, or Email</h2>
+                                <h3>(360) 581-1138</h3>
+                                <h3>devsconcrete@gmail.com</h3>
+                                <div>
+                                    <i class="fa-solid fa-comment-sms glow"></i>
+                                    <i class="fa-solid fa-mobile-screen-button glow"></i>
+                                    <i class="fa-solid fa-at glow"></i>
+                                    <i class="fa-brands fa-facebook"></i>
                                 </div>
                             </row>
 
@@ -94,6 +106,7 @@ function Homepage() {
                     </div>
 
                     <div className="col-md-6">
+                        <p className="text-center">Have a project in mind? Let us know today!</p>
                         <form>
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name</label>
@@ -112,6 +125,7 @@ function Homepage() {
                         </form>
                     </div>
                 </div>
+
             </div>
 
         </main>
