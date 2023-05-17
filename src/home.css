@@ -74,6 +74,12 @@ h1 {
     margin-top: 20%
 }
 
+.what-we-do-right {
+    max-width: 50%; 
+    justify-content: center;
+    margin: auto; 
+}
+
 #what-we-do img {
     max-width: 70%;
 }

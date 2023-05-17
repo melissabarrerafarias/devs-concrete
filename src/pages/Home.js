@@ -30,6 +30,19 @@ function Homepage() {
                     </div>
                     <div class="col-md-6">
                         <h1>WHAT WE DO</h1>
+                        <div className="what-we-do-right">
+                            <p>We offer a wide range of services for your different concrete needs.
+                                Some of the services you may be interested in are:
+                            </p>
+                            <ul>
+                                <li>Concrete Demolition</li>
+                                <li>Concrete Installation</li>
+                                <li>Flatwork and finishing</li>
+                            </ul>
+                            <p>For a more detailed list of services we offer, please visit our <a href="/services">Services</a> page.
+                                If you're all ready to get your project started, <a href="#contact">let us help!</a> </p>
+                                <button>Read More</button>
+                        </div>
                     </div>
                 </div>
             </div>
