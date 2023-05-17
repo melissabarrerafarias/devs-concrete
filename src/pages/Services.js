@@ -55,9 +55,10 @@ function Services() {
                                 </div>
                                 <div className="col-md-8">
                                     <h3>Concrete Demolition</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                        laboris nisi ut aliquip ex ea commodo consequat</p>
+                                    <p>Concrete demolition is a specialized service that involves the safe and
+                                        efficient removal of concrete structures or components. The service we offer includes expertise,
+                                        equipment, waste management, and more. 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -69,9 +70,10 @@ function Services() {
                                 </div>
                                 <div className="col-md-8">
                                     <h3>Concrete Replacement</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                        laboris nisi ut aliquip ex ea commodo consequat</p>
+                                    <p>Concrete replacement involves removing and replacing deteriorated or damaged
+                                        concrete surfaces, such as driveways, sidewalks, patios, or other concrete structures. We 
+                                        can assess and evaluate 
+                                    </p>
                                 </div>
                             </div>
                         </div>

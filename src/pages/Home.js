@@ -15,7 +15,7 @@ function Homepage() {
                         <img src={heroLogo} />
                         <h1>Dev's Concrete</h1>
                         <Pulse>
-                            <button>Request a Free Estimate</button>
+                            <button><a href="/#contact">Request a Free Estimate</a></button>
                         </Pulse>
                     </div>
                 </Fade>
@@ -41,23 +41,25 @@ function Homepage() {
                     <div class="col-md-4">
                         <i class="fa-solid fa-user-group"></i>
                         <h2>We're Experienced</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p>We offer years of on-site experience and customer satisfaction. Over time we
+                            have developed a deeper understanding of the practical aspects of the field, including
+                            project management, material handling, safety protocols, and problem-solving.  </p>
                     </div>
                     <div class="col-md-4">
                         <i class="fa-regular fa-handshake"></i>
                         <h2>We're Reliable</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p> We have consistently delivered quality services and
+                            have gained the trust of our valued clients. Our company prides itself on our
+                            professionalism, excellent work, dependability, and workforce.
+                        </p>
                     </div>
                     <div class="col-md-4">
                         <i class="fa-solid fa-hammer"></i>
                         <h2>We're Skilled</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat</p>
+                        <p>We possess the expertise, knowledge, and experience necessary to handle various
+                            concrete-related projects with proficiency. Technical experience, attention to
+                            detail, and quality craftsmanship are what you can expect when you hire us.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -96,10 +98,19 @@ function Homepage() {
                                 <h3>(360) 581-1138</h3>
                                 <h3>devsconcrete@gmail.com</h3>
                                 <div>
-                                    <i class="fa-solid fa-comment-sms glow"></i>
-                                    <i class="fa-solid fa-mobile-screen-button glow"></i>
-                                    <i class="fa-solid fa-at glow"></i>
-                                    <i class="fa-brands fa-facebook"></i>
+                                    <a href="tel:(360) 581-1138">
+                                        <i class="fa-solid fa-comment-sms glow"></i>
+                                    </a>
+                                    <a href="tel:(360) 581-1138">
+                                        <i class="fa-solid fa-mobile-screen-button glow"></i>
+                                    </a>
+                                    <a href="mailto:devsconcrete@gmail.com">
+                                        <i class="fa-solid fa-at glow"></i>
+                                    </a>
+                                    <a href="https://www.facebook.com/people/Devs-Concrete-Company-LLC/100077383621716/?locale=hi_IN&paipv=0&eav=AfaX1iZ6iPftR75AMHqrWdEMwC5nx7nTTdxGxpHBFzo2MUpGfQLGo-V5En5TYq42slw&_rdr">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+
                                 </div>
                             </row>
 
@@ -119,7 +130,7 @@ function Homepage() {
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Request</label>
-                                <textarea type="text" class="form-control" id="exampleInputPassword1"/>
+                                <textarea type="text" class="form-control" id="exampleInputPassword1" />
                             </div>
 
                             <button type="submit" class="btn btn-primary">Submit</button>

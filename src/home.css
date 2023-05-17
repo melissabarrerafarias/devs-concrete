@@ -51,6 +51,11 @@ font-family: 'Orbitron', sans-serif;*/
     left: 5px;
 }
 
+.hero button a {
+    color: black; 
+    text-decoration: none;
+}
+
 /* @media (min-width: 768px) {
     .button-54 {
         padding: 0.25em 0.75em;
@@ -75,7 +80,7 @@ h1 {
 
 #why-choose-us {
     margin-top: 10%;
-    height: 350px;
+    height: 370px;
     background-color: rgb(229, 229, 229);
     padding-top: 20px;
 }
@@ -169,6 +174,7 @@ h1 {
     padding-top: 10px; 
     text-shadow: 0px 0px 5px #FFFFFF;
     margin-top: 25px;
+    color: black
 }
 
 #contact p {
