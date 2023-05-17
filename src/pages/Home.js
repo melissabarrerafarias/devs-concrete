@@ -92,6 +92,7 @@ function Homepage() {
                         <div className="contact-info">
                             <row className="contact-details">
                                 <h2>Text, Call, or Email</h2>
+                                <h4>Schedule an appointment and get a free estimate</h4>
                                 <h3>(360) 581-1138</h3>
                                 <h3>devsconcrete@gmail.com</h3>
                                 <div>
@@ -118,7 +119,7 @@ function Homepage() {
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Request</label>
-                                <textarea type="text" class="form-control" id="exampleInputPassword1" />
+                                <textarea type="text" class="form-control" id="exampleInputPassword1"/>
                             </div>
 
                             <button type="submit" class="btn btn-primary">Submit</button>

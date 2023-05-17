@@ -1,4 +1,4 @@
-main {
+#services {
     background-color: rgb(229, 229, 229);
 }
 
@@ -10,8 +10,30 @@ main {
 
 .services-options {
     width: 40%; 
-    height: 200px;
+    height: 350px;
     margin: auto; 
     background-color: #FFFFFF;
-    margin-top: 15%
+    margin-top: 10%; 
+}
+
+.services-options img {
+    width: 50%; 
+}
+
+.services-icons {
+    padding-top: 140px; 
+    padding-left: 70px
+}
+
+#services h3 { 
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px; 
+    text-align: start;
+    /* padding-right: 15px;  */
+    padding-top: 80px; 
+}
+
+.services-options p {
+    font-family: 'Montserrat', sans-serif;
+    padding-right: 70px
 }

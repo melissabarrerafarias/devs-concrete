@@ -150,11 +150,16 @@ h1 {
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    margin-bottom: 25px
 }
 
 .contact-details h3 {
     font-family: 'Montserrat', sans-serif;
+}
+
+.contact-details h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-bottom: 25px
 }
 
 .contact-details i {
