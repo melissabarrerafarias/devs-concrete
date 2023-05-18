@@ -36,3 +36,89 @@
     font-family: 'Montserrat', sans-serif;
     padding-right: 70px
 }
+
+@media (max-width: 1300px) {
+    .services-options p {
+        font-size: 13px;
+    }
+
+    .services-options img {
+        width: 60%;
+    }
+
+    .services-icons {
+        padding-left: 50px;
+    }
+}
+
+@media (max-width: 975px) {
+    .services-options {
+        width: 47%;
+    }
+    .services-options p {
+        padding-right: 40px;
+    }
+
+    .services-options img {
+        width: 70%;
+    }
+
+    .services-icons {
+        padding-left: 25px;
+    }
+
+    #services h3 {
+        font-size: 20px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    #services h1 {
+        margin-top: 0px;
+    }
+    .services-options {
+        width: 80%; 
+        height: 400px; 
+        text-align: center;
+    }
+
+    .services-options img {
+        width: 20%;
+    }
+
+    .services-icons {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+
+    #services h3 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 25px;
+        text-align: center; 
+        padding-top: 50px;
+    }
+
+    .services-options p {
+        padding-right: 0px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .services-carousel {
+        max-width: 80%;
+        margin-bottom: 10%
+    }
+}
+
+@media (max-width: 575px) {
+    .services-options {
+        height: 450px;
+    }
+}
+
+@media (max-width: 450px) {
+    .services-options {
+        height: 500px;
+    }
+}

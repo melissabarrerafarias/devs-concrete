@@ -4,7 +4,7 @@ function Footer() {
     return (
         <div id="footer" className="row">
             <div id="footer-left" className="col-md-6">
-                <h1>Dev's Concrete</h1>
+                <h1>Dev's Concrete LLC</h1>
                 <div>
                     <p>Dev's Concrete LLC is a certified and licensed company
                         by the state of Washington. Our company is insured and dedicated to delivering high-quality

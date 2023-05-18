@@ -13,7 +13,7 @@ function Homepage() {
                 <Fade top>
                     <div className="hero-logo">
                         <img src={heroLogo} />
-                        <h1>Dev's Concrete</h1>
+                        <h1>Dev's Concrete LLC</h1>
                         <Pulse>
                             <button><a href="/#contact">Request a Free Estimate</a></button>
                         </Pulse>
@@ -135,19 +135,21 @@ function Homepage() {
 
                     <div className="col-md-6">
                         <p className="text-center">Have a project in mind? Let us know today!</p>
-                        <form>
+                        <form action="https://formsubmit.co/melissabarrerafarias@gmail.com" method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name</label>
-                                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                                <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleInputPassword1" />
+                                <input type="email" name="email" class="form-control" id="exampleInputPassword1" />
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Request</label>
-                                <textarea type="text" class="form-control" id="exampleInputPassword1" />
+                                <textarea type="text" name="description" class="form-control" id="exampleInputPassword1" />
                             </div>
+                            <input type='hidden' name="_next" value="http://localhost:3000/confirmation" /> {/* needs to be changed to actual domain */}
+                            <input type="hidden" name="_captcha" value="false" />
 
                             <button type="submit" class="btn btn-primary">Submit</button>
                         </form>
