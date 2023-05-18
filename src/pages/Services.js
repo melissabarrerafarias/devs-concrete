@@ -70,7 +70,7 @@ function Services() {
                                 </div>
                                 <div className="col-md-8">
                                     <h3>Concrete Replacement</h3>
-                                    <p>Concrete replacement involves removing and replacing deteriorated or damaged
+                                    <p>We can remove and replace deteriorated or damaged
                                         concrete surfaces, such as driveways, sidewalks, patios, or other concrete structures. We 
                                         can assess and evaluate your project needs. 
                                     </p>
@@ -89,7 +89,7 @@ function Services() {
                                 </div>
                                 <div className="col-md-8">
                                     <h3> Flatwork Specialists</h3>
-                                    <p>Flatwork refers to concrete work that involves horizontal surfaces such as
+                                    <p>We specialize in concrete work that involves horizontal surfaces such as
                                         driveways, sidewalks, patios, floors, and foundations. We promise precision, technique, 
                                         and a beautiful finish. 
                                     </p>
@@ -106,7 +106,7 @@ function Services() {
                                 </div>
                                 <div className="col-md-8">
                                     <h3>Aggregate</h3>
-                                    <p>Aggregate work typically involves the use of various types of aggregates, such as crushed
+                                    <p>Aggregate work involves the use of various types of aggregates, your choice of crushed
                                         stone, gravel or sand, in concrete mixtures or for other construction purposes. We do
                                         site preparation and grading, as well as placement and finishing. 
                                     </p>
