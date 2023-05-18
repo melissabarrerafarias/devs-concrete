@@ -4,7 +4,6 @@
 
 .services-carousel {
     margin: auto; 
-    padding-top: 5%; 
     max-width: 60%;
 }
 
@@ -13,7 +12,7 @@
     height: 350px;
     margin: auto; 
     background-color: #FFFFFF;
-    margin-top: 10%; 
+    margin-top: 5%; 
 }
 
 .services-options img {

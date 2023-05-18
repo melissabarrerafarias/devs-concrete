@@ -41,7 +41,10 @@ function Homepage() {
                             </ul>
                             <p>For a more detailed list of services we offer, please visit our <a href="/services">Services</a> page.
                                 If you're all ready to get your project started, <a href="#contact">let us help!</a> </p>
-                                <button>Read More</button>
+                            <div className="text-center">
+                                <button><a href="/services">Read More</a></button>
+                            </div>
+
                         </div>
                     </div>
                 </div>

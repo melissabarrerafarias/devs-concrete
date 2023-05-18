@@ -75,9 +75,79 @@ h1 {
 }
 
 .what-we-do-right {
-    max-width: 50%; 
+    max-width: 60%; 
     justify-content: center;
     margin: auto; 
+    text-align: start;
+}
+
+.what-we-do-right p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-top: 30px
+}
+
+.what-we-do-right ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 20px; 
+    font-size: 25px;
+}
+
+.what-we-do-right ul {
+    margin-top: 40px
+}
+
+.what-we-do-right a {
+    text-decoration: underline #0D6EFD;
+    color: black
+}
+
+.what-we-do-right button {
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    border-color: black; 
+    margin-top: 30px; 
+}
+
+.what-we-do-right button a {
+    text-decoration: none;
+}
+
+
+.what-we-do-right button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.what-we-do-right button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
 
 #what-we-do img {
