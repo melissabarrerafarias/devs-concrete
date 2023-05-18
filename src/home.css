@@ -331,6 +331,14 @@ textarea:focus {
     #why-choose-us {
         height: 400px
     }
+
+    .contact-info {
+        width: 80%
+    }
+
+    .contact-details h2 {
+        padding-top: 20%
+    }
 }
 
 @media (max-width: 1100px) {
@@ -353,6 +361,18 @@ textarea:focus {
 }
 
 @media (max-width: 950px) { 
+    #why-choose-us {
+        margin-top: 25%; 
+    }
+
+    #where-we-serve {
+        margin-top: 25%;
+    }
+
+    #contact {
+        margin-top: 25%;
+    }
+
     #why-choose-us p {
         font-size: 13px;
     }
@@ -369,6 +389,27 @@ textarea:focus {
     #where-we-serve .col-md-1 {
         margin-left: 30px;
         margin-right: 30px;
+    }
+
+    #contact form {
+        width: 100%
+    }
+
+    .contact-details h2 {
+        font-size: 25px; 
+        padding-top: 25%;
+    }
+
+    .contact-info {
+        width: 90%
+    }
+
+    #contact p {
+        margin-top: 30px
+    }
+
+    .contact-details h3 {
+        font-size: 20px
     }
 }
 
@@ -423,9 +464,39 @@ textarea:focus {
     #where-we-serve .col-md-1 {
         margin-top: 9px
     }
+
+    .contact-details h2 {
+        font-size: 25px; 
+        padding-top: 8%;
+    }
+
+    .contact-info {
+        width: 80%; 
+        height: 300px;
+    }
+
+    #contact p {
+        margin-top: 10%
+    }
+
+    .contact-details h3 {
+        font-size: 20px
+    }
 }
 
 @media (max-width: 550px) {
+    #why-choose-us {
+        margin-top: 35%; 
+    }
+
+    #where-we-serve {
+        margin-top: 35%;
+    }
+
+    #contact {
+        margin-top: 35%;
+    }
+
     .hero button {
         font-size: 12px;
     }
@@ -449,6 +520,23 @@ textarea:focus {
     #where-we-serve img {
         max-width: 70%;
     }
+
+    .contact-details h2 {
+        font-size: 20px; 
+        padding-top: 8%;
+    }
+
+    .contact-info {
+        width: 90%
+    }
+
+    #contact p {
+        margin-top: 20%
+    }
+
+    .contact-details h3 {
+        font-size: 20px
+    }
 }
 
 @media (max-width: 475px) {
@@ -464,14 +552,56 @@ textarea:focus {
     #where-we-serve .col-md-1 {
         margin-top: 7px
     }
+
+    .contact-details h2 {
+        padding-top: 10%;
+    }
+
+    .contact-info {
+        width: 90%
+    }
+
+    .contact-details h3 {
+        font-size: 20px
+    }
+
+    .contact-details h4 {
+        font-size: 12px
+    }
+
+    .contact-details i {
+        font-size: 20px;
+    }
 }
 
+
 @media (max-width: 375px) {
+    #why-choose-us {
+        margin-top: 50%; 
+    }
+
+    #where-we-serve {
+        margin-top: 50%;
+    }
+
+    #contact {
+        margin-top: 50%;
+    }
+
     .hero {
         height: 400px ;
     }
 
     #why-choose-us {
         height: 1100px;
+    }
+
+    .contact-info {
+        height: 250px;
+        margin-top: 10px;
+    }
+
+    #contact p {
+        font-size: 15px;
     }
 }
