@@ -3,7 +3,7 @@
 }
 
 .navbar-brand {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Orbitron', sans-serif;
     color: #EFF5F5; 
 }
 
@@ -22,5 +22,11 @@
     #navbarNavAltMarkup {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    #navbar-brand-right {
+        display: none;
     }
 }
