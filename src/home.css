@@ -411,6 +411,22 @@ textarea:focus {
     .contact-details h3 {
         font-size: 20px
     }
+
+    .what-we-do-right p {
+        font-size: 15px;
+    }
+
+    .what-we-do-right ul li {
+        font-size: 15px;
+    }
+
+    #what-we-do img {
+        max-width: 90%;
+    }
+
+    #footer h1 {
+        margin-top: 0px;
+    }
 }
 
 
@@ -424,6 +440,10 @@ textarea:focus {
         height: 800px ;
     }
 
+    .hero h1 {
+        margin-top: 10px
+    }
+
     h1 {
         margin-top: 50px
     }
@@ -433,11 +453,11 @@ textarea:focus {
     }
 
     .what-we-do-right p {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .what-we-do-right ul li {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #why-choose-us {
@@ -481,6 +501,10 @@ textarea:focus {
 
     .contact-details h3 {
         font-size: 20px
+    }
+
+    #footer ul {
+        display: none;
     }
 }
 
@@ -540,6 +564,7 @@ textarea:focus {
 }
 
 @media (max-width: 475px) {
+
     #why-choose-us {
         height: 1000px;
     }
@@ -604,4 +629,5 @@ textarea:focus {
     #contact p {
         font-size: 15px;
     }
+
 }
