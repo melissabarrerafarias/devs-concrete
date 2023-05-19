@@ -135,7 +135,7 @@ function Homepage() {
 
                     <div className="col-md-6">
                         <p className="text-center">Have a project in mind? Let us know today!</p>
-                        <form action="https://formsubmit.co/melissabarrerafarias@gmail.com" method="POST">
+                        <form action="https://formsubmit.co/devsconcrete@gmail.com" method="POST">
                             <div class="mb-3">
                                 <label for="exampleInputEmail1" class="form-label">Name</label>
                                 <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
@@ -148,7 +148,7 @@ function Homepage() {
                                 <label for="exampleInputPassword1" class="form-label">Request</label>
                                 <textarea type="text" name="description" class="form-control" id="exampleInputPassword1" />
                             </div>
-                            <input type='hidden' name="_next" value="http://localhost:3000/confirmation" /> {/* needs to be changed to actual domain */}
+                            <input type='hidden' name="_next" value="http://devsconcretellc.com/confirmation" /> {/* needs to be changed to actual domain */}
                             <input type="hidden" name="_captcha" value="false" />
 
                             <button type="submit" class="btn btn-primary">Submit</button>
