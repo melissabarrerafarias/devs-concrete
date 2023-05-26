@@ -1,6 +1,7 @@
 import '../home.css';
 import heroLogo from "../assets/images/logo-homepage.PNG";
 import homepageImg2 from '../assets/images/homepage-img2.jpg';
+import homepageImg3 from '../assets/images/possibleImg1.avif'; 
 import locations from '../assets/images/locations.png';
 
 import Pulse from 'react-reveal/Pulse';
@@ -25,7 +26,7 @@ function Homepage() {
                 <div class="row">
                     <div class="col-md-6">
                         <Fade left>
-                            <img src={homepageImg2} />
+                            <img src={homepageImg3} />
                         </Fade>
                     </div>
                     <div class="col-md-6">
@@ -112,6 +113,7 @@ function Homepage() {
                                 <h2>Text, Call, or Email</h2>
                                 <h4>Schedule an appointment and get a free estimate</h4>
                                 <h3>(360) 581-1138</h3>
+                                <h3>(360) 660-6986</h3>
                                 <h3>devsconcrete@gmail.com</h3>
                                 <div>
                                     <a href="tel:(360) 581-1138">
